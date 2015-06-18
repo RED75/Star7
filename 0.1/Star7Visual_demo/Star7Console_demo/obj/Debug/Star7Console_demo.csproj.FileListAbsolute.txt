@@ -1,0 +1,8 @@
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\bin\Debug\Star7Console_demo.exe.config
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\bin\Debug\Star7Console_demo.exe
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\bin\Debug\Star7Console_demo.pdb
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\bin\Debug\Star7ClassLibrary.dll
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\bin\Debug\Star7ClassLibrary.pdb
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\obj\Debug\Star7Console_demo.csprojResolveAssemblyReference.cache
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\obj\Debug\Star7Console_demo.exe
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Console_demo\obj\Debug\Star7Console_demo.pdb

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star7Visual_demo", "Star7Visual_demo\Star7Visual_demo.csproj", "{195871BB-CCFB-46D8-8ACC-44A151B45AA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star7ClassLibrary", "Star7ClassLibrary\Star7ClassLibrary.csproj", "{F2FB2FB1-6B77-4A05-B86A-28A11E0CCF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Star7Console_demo", "Star7Console_demo\Star7Console_demo.csproj", "{C102DF4F-B2DA-45B5-A1D8-3F207EE7ECF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195871BB-CCFB-46D8-8ACC-44A151B45AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195871BB-CCFB-46D8-8ACC-44A151B45AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195871BB-CCFB-46D8-8ACC-44A151B45AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195871BB-CCFB-46D8-8ACC-44A151B45AA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FB2FB1-6B77-4A05-B86A-28A11E0CCF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FB2FB1-6B77-4A05-B86A-28A11E0CCF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FB2FB1-6B77-4A05-B86A-28A11E0CCF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FB2FB1-6B77-4A05-B86A-28A11E0CCF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C102DF4F-B2DA-45B5-A1D8-3F207EE7ECF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C102DF4F-B2DA-45B5-A1D8-3F207EE7ECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C102DF4F-B2DA-45B5-A1D8-3F207EE7ECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C102DF4F-B2DA-45B5-A1D8-3F207EE7ECF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

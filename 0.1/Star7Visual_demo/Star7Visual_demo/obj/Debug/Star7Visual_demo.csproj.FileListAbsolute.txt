@@ -1,0 +1,13 @@
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\bin\Debug\Star7Visual_demo.exe.config
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\bin\Debug\Star7Visual_demo.exe
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\bin\Debug\Star7Visual_demo.pdb
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.csprojResolveAssemblyReference.cache
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\MainWindow.baml
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\MainWindow.g.cs
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\App.g.cs
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo_MarkupCompile.cache
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.g.resources
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.Properties.Resources.resources
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.csproj.GenerateResource.Cache
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.exe
+C:\Users\REDWork\Google Диск\C# projects\Star7\0.1\Star7Visual_demo\Star7Visual_demo\obj\Debug\Star7Visual_demo.pdb
