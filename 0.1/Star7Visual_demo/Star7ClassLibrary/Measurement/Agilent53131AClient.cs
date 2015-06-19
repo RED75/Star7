@@ -24,7 +24,7 @@ namespace Star7ClassLibrary.Measurement
         /// Инициализируется работа ком порта для связи с Agilent53131A, открывается порт
         /// </summary>
         /// <param name="serialPortName"></param>
-        public Agilent53131AClient(string serialPortName="Com9")
+        public Agilent53131AClient(string serialPortName="Com10")
         {
             serialPort=new SerialPort(serialPortName);
             InitializeCom();

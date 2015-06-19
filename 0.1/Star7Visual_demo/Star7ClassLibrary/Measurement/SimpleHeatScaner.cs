@@ -15,16 +15,20 @@ namespace Star7ClassLibrary.Measurement
         /// <summary>
         /// задержка между изменением температуры и считыванием частоты, мсек
         /// </summary>
-        private int DelayBeforeMesurement = 20000;
+        private int DelayBeforeMesurement = 80000;
         public SimpleHeatScaner()
         {
      
         }
-        public void Scan(int start = 140, int stop = 250, int nsteps = 10)
+        public void Scan(int start = 100, int stop = 30, int nsteps = 10)
         {
             int step = (int)Math.Ceiling((double)((stop - start) / nsteps));
             int value = start;
-            for (int i = 0; i < nsteps; i++)
+            Console.WriteLine("Time: " + DateTime.Now.ToString() + " ResistorPosition: " + value.ToString() + " Frequency: " + agilent53131AClient.ReciveFrequency() + " Start Warm");
+            com.Write((byte)value);
+            Thread.Sleep(400*1000);//warming time
+            
+            for (int i = 0; i <=nsteps; i++)
             {
                 
                 byte bt = (byte) value;
@@ -34,6 +38,7 @@ namespace Star7ClassLibrary.Measurement
                 Console.WriteLine("Time: "+DateTime.Now.ToString()+" ResistorPosition: "+value.ToString()+" Frequency: "+agilent53131AClient.ReciveFrequency());
                 value += step;
             }
+            com.Write((byte)255);//Set min tempreture
             Console.ReadKey();
         }
     }
