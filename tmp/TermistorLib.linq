@@ -17,22 +17,28 @@ public class MurataNCP:ITermistor
 	public MurataNCP()
 	{
 		Betta=4785;
+		RefValue=150000;
+		RefTempreture=25;
 	}
 	public double Betta{get;set;}
+	public double RefValue{get;set;}
+	public double RefTempreture{get;set;}
 	public double getResistence(double tempreture)
 	{
-		return 150000*Math.Exp(Betta*(1/(tempreture+273.15)-1/(25+273.15)));
+		return RefValue*Math.Exp(Betta*(1/(tempreture+273.15)-1/(RefTempreture+273.15)));
 	}
 	public double getTempreture(double resistence)
 	{
-		return resistence;
+		var temp = Math.Log(resistence/RefValue)/Betta+1/(RefTempreture+273.15);
+		return 1/temp-273.15; 
 	}
 };
 
 void Main()
 {
 MurataNCP termistor=new MurataNCP();
-termistor.getResistence(85).Dump();
+termistor.getResistence(60).Dump();
+termistor.getTempreture(termistor.getResistence(100)).Dump();
 	
 }
 
