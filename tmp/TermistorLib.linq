@@ -34,10 +34,12 @@ public class MurataNCP:ITermistor
 	}
 };
 
+public class DigitalPotenciometrDS3902
+
 void Main()
 {
 MurataNCP termistor=new MurataNCP();
-termistor.getResistence(60).Dump();
+termistor.getResistence(110).Dump();
 termistor.getTempreture(termistor.getResistence(100)).Dump();
 	
 }

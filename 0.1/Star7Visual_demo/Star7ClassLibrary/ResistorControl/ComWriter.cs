@@ -44,6 +44,7 @@ namespace Star7ClassLibrary.ResistorControl
             buffer[1] = 162;        //Todo: Вынести адресс устройства в параметры 
             buffer[2] = 3;          //Todo: Вынести адресс регистра в параметры     2 - 30 kOm, 3 - 50 kOm
             buffer[3] = rPosition;
+            if(rPosition<26) return; //Защита от перегрева 5кОм
             serialPort.Write(buffer, 0, 4);
         }
 

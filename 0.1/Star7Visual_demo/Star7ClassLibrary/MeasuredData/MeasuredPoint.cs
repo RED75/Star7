@@ -14,9 +14,9 @@ namespace Star7ClassLibrary.MeasuredData
         /// <summary>
         /// 
         /// </summary>
-        public double R0 { get; set; }
+        public int R0 { get; set; }
         /// <summary>
-        /// Установленное сопротивление ццифрового потенциометра
+        /// Установленный квант ццифрового потенциометра
         /// </summary>
         public double F { get ; set; }
         /// <summary>

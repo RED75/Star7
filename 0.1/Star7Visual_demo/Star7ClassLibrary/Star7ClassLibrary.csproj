@@ -47,11 +47,14 @@
     <Compile Include="MeasuredData\MeasuredData.cs" />
     <Compile Include="Fitter\Polinom.cs" />
     <Compile Include="Measurement\Agilent53131AClient.cs" />
+    <Compile Include="Measurement\DigitalResistorController.cs" />
     <Compile Include="Measurement\SimpleHeatScaner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResistorControl\ComWriter.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="ToDo Properties.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
